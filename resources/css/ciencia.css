@@ -1,0 +1,48 @@
+article.flex1 {
+    display: flex;
+    flex-flow: row;
+}
+
+article.flex1 img {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+section#ciencia {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px 50px 0px 50px;
+}
+
+
+section#ciencia div video {
+    margin: 0px 50px 0px 50px;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+
+p {
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+}
+
+video {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+table {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+div>p.formacion {
+    font-size: 1em;
+}

@@ -1,0 +1,95 @@
+#hexagonButton {
+    height: 150px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#hexagonLink {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+span#texto_enlace {
+    text-align: center;
+    display: block;
+}
+
+section#leyenda {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+div p span.mayuscula {
+    font-size: 3em;
+    margin-top: 30px;
+    line-height: 0.8;
+}
+
+div p span.negrita {
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0px;
+    line-height: 1.5;
+
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+section#leyenda div p {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    text-align: justify;
+}
+
+h3 {
+    color: black;
+    font-size: 2em;
+    padding: 0 20px;
+    text-align: left;
+}
+
+div.flex img {
+
+    margin-right: 200px;
+    margin-bottom: 30px;
+
+}
+
+
+article.flex1 {
+    display: flex;
+    flex-flow: row;
+}
+
+article.flex1 img {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1280px) {
+    section#leyenda {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    section#leyenda {
+        display: block;
+    }
+}

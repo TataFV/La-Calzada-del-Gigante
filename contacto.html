@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubriendo la Calzada</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/form.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="title">La Calzada del Gigante</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="indexPrincipal.html">Home</a></li>
+            <li><a href="ciencia.html">Ciencia</a></li>
+            <li><a href="leyenda.html">Leyenda</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="breadcrumb">Home &gt; <span style="text-decoration: underline">Contacto</span></div>
+    <section>
+        <div id="formulario">
+            <form action="form.php" method="post">
+                <div id="campoNombre">
+                    <label for="">Nombre completo:</label>
+                    <input id="nombre" type="text" name="nombre" id="nombre" required placeholder="John Doe" /><br>
+                </div>
+                <label for="">E-mail:</label>
+                <input type="email" name="email" id="email" required placeholder="name@example.com" />
+                <br>
+                <label for="foto">Elige una foto:</label>
+                <select name="select" id="select" size="5" multiple required>
+                    <option value="img1">Foto 1</option>
+                    <option value="img2">Foto 2</option>
+                    <option value="img3">Foto 3</option>
+                    <option value="img4">Foto 4</option>
+                    <option value="img5">Foto 5</option>
+                </select>
+                <br>
+                <textarea name="textarea" id="area" cols="30" rows="5" placeholder="Escribe un comentario"
+                    style="resize:none"></textarea>
+                <input id="boton" type="submit" value="Enviar" />
+            </form>
+        </div>
+    </section>
+    <hr class="separacion">
+    <footer>
+        <h4><small><i>@Marta Fernández Villanueva</small></i></h4>
+    </footer>
+    <script src="/js/form.js"></script>
+</body>
+
+</html>

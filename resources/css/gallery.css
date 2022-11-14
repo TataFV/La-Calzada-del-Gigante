@@ -1,0 +1,60 @@
+#boton.boton {
+    margin: 0 auto;
+    font-size: medium;
+    width: 100px;
+    padding: 20px;
+    display: block;
+}
+
+#container {
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+#galeria {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#galeria.darkTheme {
+    background-color: #333
+}
+
+
+.darkTheme {
+    color: #333
+}
+
+.estiloFoto {
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid rgb(0, 136, 57);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+h1 {
+    color: blue;
+    margin-left: 780px;
+}
+
+.zoom {
+    transform: scale(3.5);
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 25;
+}
+
+.zoom-on {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #cccccccc;
+}
